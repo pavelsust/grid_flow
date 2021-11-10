@@ -39,9 +39,7 @@ class _DashboardScreen extends State<DashboardScreen> with TickerProviderStateMi
   @override
   void initState() {
     super.initState();
-
     WidgetsBinding.instance!.addObserver(this);
-
   }
 
 

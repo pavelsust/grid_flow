@@ -4,6 +4,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_grid_flow/screen/dashboard/dashboard.dart';
+import 'package:flutter_grid_flow/screen/login/login_screen.dart';
 import 'package:flutter_grid_flow/utils/Constants.dart';
 
 
@@ -21,10 +22,9 @@ class _SplashScreen extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
 
-
     Timer(Duration(seconds: 2), () {
       Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (BuildContext context) {
-        return DashboardScreen();
+        return LoginScreen();
       }));
     });
 
