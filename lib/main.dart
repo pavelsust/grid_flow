@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_grid_flow/screen/dashboard.dart';
+import 'package:flutter_grid_flow/screen/splash_screen/SplashScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: DashboardScreen(),
+      home: SplashScreen(),
     );
   }
 }
