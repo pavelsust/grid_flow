@@ -38,7 +38,7 @@ class _TabBarMaterialWidgetState extends State<TabBarMaterialWidget> {
       child: BottomAppBar(
         color: Colors.transparent,
         elevation: 0,
-        // shape: CircularNotchedRectangle(),
+         shape: CircularNotchedRectangle(),
         // notchMargin: 8,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

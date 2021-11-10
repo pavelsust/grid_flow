@@ -2,11 +2,11 @@
 
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_grid_flow/screen/home_screen.dart';
-import 'package:flutter_grid_flow/screen/product_screen.dart';
-import 'package:flutter_grid_flow/screen/profile_screen.dart';
-import 'package:flutter_grid_flow/screen/statistics_screen.dart';
-import 'package:flutter_grid_flow/screen/store_screen.dart';
+import 'package:flutter_grid_flow/screen/dashboard/home_screen.dart';
+import 'package:flutter_grid_flow/screen/dashboard/product_screen.dart';
+import 'package:flutter_grid_flow/screen/dashboard/profile_screen.dart';
+import 'package:flutter_grid_flow/screen/dashboard/statistics_screen.dart';
+import 'package:flutter_grid_flow/screen/dashboard/store_screen.dart';
 import 'package:flutter_grid_flow/utils/TabBarMaterialWidget.dart';
 import 'package:flutter_grid_flow/utils/extension.dart';
 

@@ -3,7 +3,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_grid_flow/screen/dashboard.dart';
+import 'package:flutter_grid_flow/screen/dashboard/dashboard.dart';
 import 'package:flutter_grid_flow/utils/Constants.dart';
 
 

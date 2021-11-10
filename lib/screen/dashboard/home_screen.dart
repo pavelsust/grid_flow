@@ -3,6 +3,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:flutter_grid_flow/screen/others/test_screen.dart';
 import 'package:flutter_grid_flow/utils/Constants.dart';
 import 'package:flutter_grid_flow/widget/item_widget.dart';
 
@@ -216,7 +217,13 @@ class _HomeScreen extends State<HomeScreen>{
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Expanded(
-                          child: ItemWidget("Add Product" , Icons.add_shopping_cart),
+                          child: GestureDetector(
+                              onTap: (){
+                                Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) {
+                                  return TestScreen();
+                                }));
+                              },
+                              child: ItemWidget("Add Product" , Icons.add_shopping_cart)),
                         ),
 
                         Expanded(

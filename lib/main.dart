@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_grid_flow/screen/dashboard.dart';
+import 'package:flutter_grid_flow/screen/dashboard/dashboard.dart';
 import 'package:flutter_grid_flow/screen/splash_screen/SplashScreen.dart';
 
 void main() {
