@@ -2,6 +2,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class HexColor extends Color {
   static int _getColorFromHex(String hexColor) {
@@ -15,4 +16,14 @@ class HexColor extends Color {
   HexColor(final String hexColor) : super(_getColorFromHex(hexColor));
 }
 
+void showToast(message, Color color) {
+  Fluttertoast.showToast(
+      msg: message,
+      toastLength: Toast.LENGTH_SHORT,
+      gravity: ToastGravity.BOTTOM,
+      timeInSecForIosWeb: 1,
+      backgroundColor: color,
+      textColor: Colors.white,
+      fontSize: 14.0);
+}
 

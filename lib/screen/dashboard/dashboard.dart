@@ -31,10 +31,9 @@ class _DashboardScreen extends State<DashboardScreen> with TickerProviderStateMi
      GlobalKey<NavigatorState>(),
      GlobalKey<NavigatorState>(),
      GlobalKey<NavigatorState>(),
-    GlobalKey<NavigatorState>(),
-    GlobalKey<NavigatorState>(),
+     GlobalKey<NavigatorState>(),
+     GlobalKey<NavigatorState>(),
   ];
-
 
   @override
   void initState() {
