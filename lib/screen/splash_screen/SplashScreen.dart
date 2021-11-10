@@ -4,6 +4,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_grid_flow/screen/dashboard.dart';
+import 'package:flutter_grid_flow/utils/Constants.dart';
+
 
 class SplashScreen extends StatefulWidget{
 
@@ -32,7 +34,7 @@ class _SplashScreen extends State<SplashScreen> {
         child: const Center(
           child: Text(
             "Grid Flow",
-            style: TextStyle(fontSize: 50 , fontWeight: FontWeight.bold, color: Colors.black54),
+            style: TextStyle(fontSize: 50 , fontWeight: FontWeight.bold, color: primaryColor),
           ),
         ),
       ),
