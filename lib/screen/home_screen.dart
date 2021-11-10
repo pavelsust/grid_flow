@@ -4,6 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_grid_flow/utils/Constants.dart';
+import 'package:flutter_grid_flow/widget/item_widget.dart';
 
 class HomeScreen extends StatefulWidget{
 
@@ -215,88 +216,16 @@ class _HomeScreen extends State<HomeScreen>{
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Expanded(
-                          child: Card(
-                            shape: BeveledRectangleBorder(
-                              borderRadius: BorderRadius.circular(10.0),
-                            ),
-                            child: Container(
-                              height: size.height*0.15,
-
-                              alignment: Alignment.center,
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: const [
-                                  Icon(
-                                    Icons.add_shopping_cart,
-                                    size: 50,
-                                  ),
-                                  Text("Add Product")
-                                ],
-                              ),
-                              decoration: const BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(30)),
-                              ),
-
-                            ),
-                            elevation: 4,
-                          ),
+                          child: ItemWidget("Add Product" , Icons.add_shopping_cart),
                         ),
 
                         Expanded(
-                          child: Card(
-                            shape: BeveledRectangleBorder(
-                              borderRadius: BorderRadius.circular(10.0),
-                            ),
-                            child: Container(
-                              height: size.height*0.15,
-                              alignment: Alignment.center,
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: const [
-                                  Icon(
-                                    Icons.add_shopping_cart,
-                                    size: 50,
-                                  ),
-                                  Text("Add OutLet")
-                                ],
-                              ),
-                              decoration: const BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(30)),
-                              ),
-
-                            ),
-                            elevation: 4,
-                          ),
+                          child: ItemWidget("Add OutLet" , Icons.add_shopping_cart),
                         ),
 
                         Expanded(
-                          child: Card(
-                            shape: BeveledRectangleBorder(
-                              borderRadius: BorderRadius.circular(10.0),
-                            ),
-                            child: Container(
-                              height: size.height*0.15,
-                              alignment: Alignment.center,
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: const [
-                                  Icon(
-                                    Icons.add_shopping_cart,
-                                    size: 50,
-                                  ),
-                                  Text("Add Stock")
-                                ],
-                              ),
-                              decoration: const BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(30)),
-                              ),
-
-                            ),
-                            elevation: 4,
-                          ),
+                          child: ItemWidget("Add Stock" , Icons.add_shopping_cart),
                         ),
-
-
 
                       ],
                     ),
@@ -304,88 +233,18 @@ class _HomeScreen extends State<HomeScreen>{
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Expanded(
-                          child: Card(
-                            shape: BeveledRectangleBorder(
-                              borderRadius: BorderRadius.circular(10.0),
-                            ),
-                            child: Container(
-                              height: size.height*0.15,
-                              alignment: Alignment.center,
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: const [
-                                  Icon(
-                                    Icons.add_shopping_cart,
-                                    size: 50,
-                                  ),
-                                  Text("List Order")
-                                ],
-                              ),
-                              decoration: const BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(30)),
-                              ),
 
-                            ),
-                            elevation: 4,
-                          ),
+                        Expanded(
+                          child: ItemWidget("List Order" , Icons.add_shopping_cart),
                         ),
 
                         Expanded(
-                          child: Card(
-                            shape: BeveledRectangleBorder(
-                              borderRadius: BorderRadius.circular(10.0),
-                            ),
-                            child: Container(
-                              height: size.height*0.15,
-                              alignment: Alignment.center,
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: const [
-                                  Icon(
-                                    Icons.add_shopping_cart,
-                                    size: 50,
-                                  ),
-                                  Text("Report")
-                                ],
-                              ),
-                              decoration: const BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(30)),
-                              ),
-
-                            ),
-                            elevation: 4,
-                          ),
+                          child: ItemWidget("Report" , Icons.add_shopping_cart),
                         ),
 
                         Expanded(
-                          child: Card(
-                            shape: BeveledRectangleBorder(
-                              borderRadius: BorderRadius.circular(10.0),
-                            ),
-                            child: Container(
-                              height: size.height*0.15,
-                              alignment: Alignment.center,
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: const [
-                                  Icon(
-                                    Icons.add_shopping_cart,
-                                    size: 50,
-                                  ),
-                                  Text("Stat")
-                                ],
-                              ),
-                              decoration: const BoxDecoration(
-                                borderRadius: BorderRadius.all(Radius.circular(30)),
-                              ),
-
-                            ),
-                            elevation: 4,
-                          ),
+                          child: ItemWidget("State" , Icons.add_shopping_cart),
                         ),
-
-
 
                       ],
                     ),
